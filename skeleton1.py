@@ -1,5 +1,5 @@
 ##pip install opencv-contrib-python
-##pip install skimage
+##pip install scikit-image
 ##
 from skimage import morphology
 import numpy as np

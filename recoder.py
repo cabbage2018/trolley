@@ -1,4 +1,6 @@
-
+# use numpy array to record trolley's trace,
+# learn from existing trace/track
+#
 dictionary=dict( [["a",1],["b",2],["c",3]] )
 print(dictionary)   #{'b': 2, 'a': 1, 'c': 3}
 print( type(dictionary ))  #<class 'dict'>
@@ -118,3 +120,4 @@ sorted_value = sorted(test_dict, key=test_dict.__getitem__)
 print(sorted_value)  #['DDD', 'HXH', 'CMJ', 'HLZ']
 for k in sorted_value:
     print(k, test_dict[k],end = " ")  #DDD 15 HXH 39 CMJ 43 HLZ 66
+
